@@ -62,6 +62,10 @@ const Register = () => {
             placeholder="Name"
             className="w-full p-2 border rounded"
           />
+
+
+
+          
           <input
             type="email"
             name="email"
@@ -78,6 +82,10 @@ const Register = () => {
             placeholder="Password"
             className="w-full p-2 border rounded"
           />
+
+
+
+
      
           <button
             type="submit"
