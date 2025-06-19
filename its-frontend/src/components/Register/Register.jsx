@@ -78,14 +78,7 @@ const Register = () => {
             placeholder="Password"
             className="w-full p-2 border rounded"
           />
-          <input
-            type="text"
-            name="mobile"
-            value={mobile}
-            onChange={(e) => setMobile(e.target.value)}
-            placeholder="Mobile"
-            className="w-full p-2 border rounded"
-          />
+     
           <button
             type="submit"
             className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
