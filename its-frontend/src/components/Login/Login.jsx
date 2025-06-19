@@ -55,14 +55,7 @@ function Login() {
             placeholder="Email"
             className="w-full p-2 border rounded"
           />
-          <input
-            type="password"
-            name="password"
-             value={[password]}
-            onChange={e =>{ setPassword(e.target.value)}}
-            placeholder="Password"
-            className="w-full p-2 border rounded"
-          />
+          
           <button
             type="submit"
             className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
